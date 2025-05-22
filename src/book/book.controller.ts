@@ -31,6 +31,7 @@ export class BookController {
     //   error:"Bad Request but good men"
 
     // });
+    
     return this.bookService.findOne(+id);
   }
 
